@@ -1,0 +1,506 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   
+
+}
+
+body{
+    background: #F0EBD8;
+    background-image: url(images/background-image.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section{
+
+    width: 100%;
+    height: 100vh;
+  
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #6A3E37;
+background: #F0EBD8;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .aether-logo img{
+    width:150px;
+    margin: 0;
+
+}
+section nav .aether-logo img:hover{
+    color: #6A3E37;
+}
+
+section nav ul{
+    list-style-type: none;
+   
+}
+
+section nav li{
+    margin-top: 65px;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav .social_icon{
+    margin-top: 65px ;
+    font-size: 20px;
+    color: #6A3E37;
+
+}
+section nav .social_icon:hover{
+    color: #281715;
+    cursor: pointer;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: #6A3E37;
+    font-weight: bold;
+}
+
+section nav li a:hover{
+    color: #281715;
+}
+
+section main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top:10%;
+}
+
+section .main h1{
+    position: relative;
+    font-size: 55px;
+    top: 80px;
+    left: 25px;
+
+}
+
+section .main h1 span{
+    color: #502E2A;
+
+}
+
+section .main p{
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main_message .main_btn{
+    background: #502E2A;
+    padding: 10px 20px;
+    position: relative;
+    margin-bottom: 25px;
+    top: 200px;
+    left: 25px;
+    color: #EF7B45;
+    text-decoration: none;
+
+}
+
+
+section .main .main_img img{
+    width: 380px;
+    display: flex;
+    top: 90px;
+    left: 20px;
+}
+
+/*services*/
+.services{
+    width: 100%;
+    height: auto;
+    margin: 35 px 0;
+}
+
+.services .services_box{
+    width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services_box .services_card{
+    text-align: center;
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 8px #6A3E37;
+    padding: 15px 10px;
+}
+
+.services .services_box .services_card i{
+    color: #502E2A;
+    font-size: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.services .services_box .services_card h3{
+    margin-bottom: 10px;
+
+}
+
+
+/*About Us*/
+
+.about{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about_image img{
+    width: 400px;
+}
+
+.about .about_tag h1{
+    margin-top: 50px;
+    font-size: 50 px;
+    position: relative;
+    bottom: 35px;
+}
+
+.about .about_tag p{
+    line-height: 22px;
+    width: 510px;
+    text-align: justify;
+    margin-bottom: 15px;
+    
+}
+
+.about .about_tag .about_btn{
+    padding: 10px 20px;
+    color: #281715;
+    text-decoration: none;
+    
+}
+
+.about .about_tag .about_btm:hover{
+    cursor: pointer;
+    color: #281715;
+}
+
+/*Books*/
+
+.featured_books{
+    width: 100%;
+    height: 100vh;
+    padding:70 px 0;
+
+}
+
+.featured_books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.featured_books .featured_book_box{
+    width: 95%;
+    height: 60vh;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(16,250px);
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.featured_books .featured_book_box .featured_book_card{
+    width: 250px;
+    height: 800px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #CBB9A8;
+    margin: auto 20px;
+}
+
+.featured_books .featured_book_box .featured_book_card:hover{
+    box-shadow:0 0 5px #502E2A;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_img img{
+    width: 150px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag h2{
+    margin: 12px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .writer{
+    color: #6A3E37;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .categories{
+    color: #281715;
+    margin-top: 8px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .book_price{
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .book_price sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+.featured_books .featured_book_box .featured_book_card .featured_book_tag .f_btn{
+    padding: 10px 20px;
+    border: 2 px solid #6A3E37;
+    text-decoration: none;
+    color: black;
+    margin:10px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #CBB9A8;
+    border-radius: 10px;
+}
+
+
+
+/*Releases*/
+.releases{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+
+}
+
+.releases h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.releases .releases_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 25px;
+
+}
+
+.releases .releases_box .services_card {
+    width: 250px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #6A3E37;
+    margin: auto 20px;
+}
+
+.releases .releases_box .releases_card:hover{
+    box-shadow: 0 0 5px #281715;
+}
+
+
+.releases .releases_box .releases_card .releases_image{
+    width: 150px;
+    height: 240px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.releases .releases_box .releases_card .releases_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+
+}
+
+.releases .releases_box .releases_card:hover .releases_image img{
+    transform: scale(1.1);
+
+}
+
+.releases .releases_box .releases_card .releases_tag p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 8px 0;
+    font-weight: bolder;
+}
+
+.releases .releases_box .releases_card .releases_tag p .writer{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.releases .releases_box .releases_card .releases_tag .releases_icon{
+    color: saddlebrown;
+    margin-bottom: 18px;
+}
+
+.releases .releases_box .releases_card .releases_tag .releases_btn{
+    padding: 8px;
+    border: 2px dotted #CBB9A8;
+    color: #281715;
+    text-decoration: none;
+}
+
+/*founder*/
+
+.founder{
+    width: 100%;
+    height: auto;
+
+}
+
+.founder h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+.founder .founder_box{
+    width: 100%;
+    height: 100vh;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.founder .founder_box .founder_card{
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+.founder .founder_box .founder_card .card_top img{
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px dotted #6A3E37;
+    border-radius: 50%;
+}
+
+.founder .founder_box .founder_card p{
+    margin:10px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+
+footer{
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
+    background: #F0EBD8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag{
+    margin: 10px 0;
+}
+
+footer .footer_main .tag img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+footer .footer_main .tag p{
+    width: 250px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: #281715;
+}
+
+footer .footer_main .tag a{
+    display: block;
+    color: #281715;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+    margin-right: 10px;
+}
+
+
+/*login*/
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #6A3E37;
+    border-radius: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #502E2A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #CBB9A8;
+  }
+  
